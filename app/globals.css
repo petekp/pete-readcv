@@ -1,7 +1,7 @@
 :root {
   --font-size: 14px;
   --line-height: 1.6;
-  --background: #fff;
+  --background: red;
   --grey1: #111;
   --grey2: #555;
   --grey3: #999;
@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #222;
+    --background: #111;
     --grey1: #eee;
     --grey2: #bbb;
     --grey3: #888;

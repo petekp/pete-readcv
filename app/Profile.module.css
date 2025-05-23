@@ -1,6 +1,6 @@
 .profile {
   width: 100%;
-  max-width: 540px;
+  max-width: 560px;
   margin: 0 auto;
   padding: clamp(24px, calc((100vw - 540px) / 2), 72px) 0;
 }
@@ -77,6 +77,10 @@
   flex-direction: column;
 }
 
+.experienceContent {
+  width: 100%;
+}
+
 .description p a {
   border-bottom: 1px solid var(--wash1);
 }
@@ -120,7 +124,6 @@
 }
 
 @media (max-width: 480px) {
-  
   .about .description,
   .experiences,
   .contacts {
