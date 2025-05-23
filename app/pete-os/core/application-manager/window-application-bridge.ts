@@ -20,9 +20,20 @@ export function createWindowApplicationBridge(windowManager: WindowManagerAPI) {
     }
   };
 
+  const handleWindowCreate = (windowId: string, initialState: WindowState) => {
+    const instanceId = (initialState.metadata?.instanceId as string) || undefined;
+    if (instanceId) {
+      windowToInstance.set(windowId, instanceId);
+      lifecycleManager.addWindowToInstance(instanceId, windowId);
+    }
+  };
+
   // Setup event listeners
   const unsubscribe = windowManager.subscribe((event) => {
     switch (event.type) {
+      case 'create':
+        handleWindowCreate(event.windowId, event.initialState as WindowState);
+        break;
       case 'destroy':
         handleWindowDestroy(event.windowId);
         break;

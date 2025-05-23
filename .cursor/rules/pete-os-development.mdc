@@ -1,0 +1,41 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Pete OS Development Guide
+
+## Welcome
+You're working on Pete OS, an ongoing collaborative project to build a web-based desktop environment. This guide will point you to the essential documentation that contains all project details.
+
+## What is Pete OS?
+A Next.js-based project that reimagines a portfolio website as a fully functional operating system interface, complete with windows, applications, and desktop interactions.
+
+## Documentation Structure
+All project information is maintained in three key documents. **Always start here:**
+
+1. **[PETE_OS_CONTEXT_BOOTSTRAP.md](mdc:PETE_OS_CONTEXT_BOOTSTRAP.md)**
+   - Quick context and navigation
+   - Current state and progress
+   - Points to other documentation
+
+2. **[PETE_OS_REQUIREMENTS.md](mdc:PETE_OS_REQUIREMENTS.md)**
+   - Complete requirements breakdown
+   - Progress tracking with checkboxes
+   - Session history and decisions
+   - Always check "Active Requirement" section
+
+3. **[PETE_OS_ARCHITECTURE.md](mdc:PETE_OS_ARCHITECTURE.md)**
+   - Technical patterns and principles
+   - Code organization guidelines
+   - Design decisions rationale
+
+## Working with Pete OS
+1. **Always read the documentation first** - It contains all context and decisions
+2. **Follow existing patterns** - Don't introduce new approaches without discussion
+3. **Update documentation** - Mark completed tasks and add session notes
+4. **The documentation is the source of truth** - Not this file
+
+## Entry Points
+- Main application: [app/pete-os/page.tsx](mdc:app/pete-os/page.tsx)
+- Portfolio data: [public/content/profileData.json](mdc:public/content/profileData.json)

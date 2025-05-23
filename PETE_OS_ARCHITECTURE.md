@@ -226,4 +226,25 @@ interface Constraints {
 - Unit tests for services
 - Integration tests for systems
 - Visual tests for components
-- Manual testing for interactions 
+- Manual testing for interactions
+
+## LLM Development Notes
+
+### Common Pitfalls to Avoid
+- **Don't create new patterns** - Use existing factory functions, not classes
+- **Don't hardcode UI** - Systems should work with any presentation
+- **Don't skip documentation** - Update docs immediately after changes
+- **Don't make assumptions** - Check existing code for patterns
+
+### When Stuck
+1. Check existing implementations in similar systems
+2. Review the architecture document for patterns
+3. Look at session notes for past decisions
+4. Ask for clarification rather than guessing
+
+### Code Review Checklist
+- [ ] Follows factory function pattern (not classes)
+- [ ] No UI assumptions in core systems
+- [ ] Types defined in appropriate `.types.ts` files
+- [ ] Proper event emission for state changes
+- [ ] Documentation updated with changes 

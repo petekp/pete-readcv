@@ -10,30 +10,40 @@ import {
 } from '../../core/types/application.types';
 
 export function useApplication() {
-  const manager = useApplicationManager();
+  const {
+    registerApplication,
+    unregisterApplication,
+    launchApplication,
+    terminateApplication,
+    suspendApplication,
+    resumeApplication,
+    getApplicationInstance,
+    applicationInstances,
+    sendMessage,
+  } = useApplicationManager();
 
   const registerApp = useCallback((
     manifest: ApplicationManifest, 
     component: ApplicationComponent
   ) => {
-    manager.registerApplication(manifest, component);
-  }, [manager]);
+    registerApplication(manifest, component);
+  }, [registerApplication]);
 
   const launchApp = useCallback(async (
     appId: string, 
     context?: ApplicationContext
   ) => {
-    return await manager.launchApplication(appId, context);
-  }, [manager]);
+    return launchApplication(appId, context);
+  }, [launchApplication]);
 
   const terminateApp = useCallback(async (
     instanceId: string, 
     reason?: string
   ) => {
-    await manager.terminateApplication(instanceId, reason);
-  }, [manager]);
+    terminateApplication(instanceId, reason);
+  }, [terminateApplication]);
 
-  const sendMessage = useCallback((
+  const sendMessageApp = useCallback((
     from: string,
     to: string,
     type: string,
@@ -46,17 +56,19 @@ export function useApplication() {
       payload,
       timestamp: Date.now()
     };
-    manager.sendMessage(message);
-  }, [manager]);
+    sendMessage(message);
+  }, [sendMessage]);
 
   return {
     registerApp,
+    unregisterApp: unregisterApplication,
     launchApp,
     terminateApp,
-    sendMessage,
-    suspendApp: manager.suspendApplication,
-    resumeApp: manager.resumeApplication,
-    getAppInstance: manager.getApplicationInstance,
-    getAllAppInstances: manager.getAllApplicationInstances
+    suspendApp: suspendApplication,
+    resumeApp: resumeApplication,
+    getAppInstance: getApplicationInstance,
+    getAllAppInstances: () => applicationInstances,
+    applicationInstances,
+    sendAppMessage: sendMessageApp,
   };
 } 
