@@ -1,0 +1,37 @@
+/* Pete OS Base Styles */
+
+.pete-os-viewport {
+  /* Prevent text selection on desktop */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.pete-os-window {
+  /* Enable text selection within windows */
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  
+  /* Smooth transitions for window state changes */
+  transition: opacity 0.15s ease-in-out;
+}
+
+.pete-os-window[data-window-focused="false"] {
+  /* Visual feedback for unfocused windows */
+  opacity: 0.95;
+}
+
+.pete-os-window[data-window-minimized="true"] {
+  /* Hide minimized windows */
+  display: none !important;
+}
+
+/* Prevent body scrolling */
+body.pete-os-active {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+} 
