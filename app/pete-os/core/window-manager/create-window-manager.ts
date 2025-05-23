@@ -160,7 +160,79 @@ export const createWindowManager = () => {
       emit({ type: 'focus', windowId: id });
     },
 
-    // Add all other methods following the same pattern...
+    minimizeWindow: (id: string): void => {
+      const window = state.windows.get(id);
+      if (!window || window.isMinimized) return;
+
+      window.isMinimized = true;
+      window.isFocused = false;
+      
+      if (state.focusedWindowId === id) {
+        const nextWindow = getTopmostWindow();
+        if (nextWindow) {
+          api.focusWindow(nextWindow.id);
+        } else {
+          state.focusedWindowId = null;
+        }
+      }
+      
+      emit({ type: 'minimize', windowId: id });
+    },
+
+    maximizeWindow: (id: string): void => {
+      const window = state.windows.get(id);
+      if (!window || window.isMaximized) return;
+
+      window.isMaximized = true;
+      emit({ type: 'maximize', windowId: id });
+    },
+
+    restoreWindow: (id: string): void => {
+      const window = state.windows.get(id);
+      if (!window) return;
+
+      if (window.isMinimized) {
+        window.isMinimized = false;
+        window.isVisible = true;
+        api.focusWindow(id);
+      } else if (window.isMaximized) {
+        window.isMaximized = false;
+      }
+      
+      emit({ type: 'restore', windowId: id });
+    },
+
+    moveWindow: (id: string, position: WindowPosition): void => {
+      const window = state.windows.get(id);
+      if (!window) return;
+
+      const constraints = windowConstraints.get(id);
+      if (constraints?.canMove === false) return;
+
+      window.bounds.position = position;
+      emit({ type: 'move', windowId: id, position });
+    },
+
+    resizeWindow: (id: string, size: WindowSize): void => {
+      const window = state.windows.get(id);
+      if (!window) return;
+
+      const constraints = windowConstraints.get(id);
+      if (constraints?.canResize === false) return;
+
+      // Apply size constraints
+      let { width, height } = size;
+      if (constraints) {
+        if (constraints.minWidth) width = Math.max(width, constraints.minWidth);
+        if (constraints.maxWidth) width = Math.min(width, constraints.maxWidth);
+        if (constraints.minHeight) height = Math.max(height, constraints.minHeight);
+        if (constraints.maxHeight) height = Math.min(height, constraints.maxHeight);
+      }
+
+      window.bounds.size = { width, height };
+      emit({ type: 'resize', windowId: id, size: { width, height } });
+    },
+
     getAllWindows: (): WindowState[] => {
       return Array.from(state.windows.values());
     },

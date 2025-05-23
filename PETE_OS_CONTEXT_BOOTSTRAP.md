@@ -42,9 +42,3 @@ app/pete-os/
 - Plugin-based (everything swappable)
 - React-idiomatic (useReducer, contexts, hooks)
 - Progressive enhancement
-
-## Quick Commands
-```bash
-cd /Users/petepetrash/Code/pete-readcv
-npm run dev
-``` 

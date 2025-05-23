@@ -7,11 +7,11 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { WindowManager } from "./window-manager";
+import { createWindowManager, WindowManagerAPI } from "./create-window-manager";
 import { WindowState, WindowEvent, Viewport } from "../types/window.types";
 
 interface WindowManagerContextValue {
-  windowManager: WindowManager;
+  windowManager: WindowManagerAPI;
   windows: WindowState[];
   focusedWindowId: string | null;
   viewport: Viewport;
@@ -40,13 +40,13 @@ export const WindowManagerProvider: React.FC<WindowManagerProviderProps> = ({
   children,
   persistenceKey = "pete-os-windows",
 }) => {
-  const windowManagerRef = useRef<WindowManager | undefined>(undefined);
+  const windowManagerRef = useRef<WindowManagerAPI | undefined>(undefined);
   const [windows, setWindows] = useState<WindowState[]>([]);
   const [focusedWindowId, setFocusedWindowId] = useState<string | null>(null);
   const [viewport, setViewport] = useState<Viewport>({ width: 0, height: 0 });
 
   if (!windowManagerRef.current) {
-    windowManagerRef.current = new WindowManager();
+    windowManagerRef.current = createWindowManager();
   }
 
   const windowManager = windowManagerRef.current;

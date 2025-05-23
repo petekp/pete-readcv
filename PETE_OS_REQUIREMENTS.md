@@ -35,22 +35,22 @@ Building a web-based desktop environment that provides fundamental windowing and
 ---
 
 ### Requirement 2: Application Framework & Registry
-**Status:** ⏳ Not Started  
+**Status:** ✅ Completed  
 **Estimated Effort:** 1 PR (3-4 commits)
 
 **Subtasks:**
-- [ ] Create application registry system
-- [ ] Build application lifecycle manager
-- [ ] Implement inter-application communication
-- [ ] Create application manifest structure
-- [ ] Add application state management
+- [x] Create application registry system
+- [x] Build application lifecycle manager
+- [x] Implement inter-application communication
+- [x] Create application manifest structure
+- [x] Add application state management
 
 **Acceptance Criteria:**
-- Applications can register with the system
-- Apps can be launched, suspended, terminated
-- Apps can communicate via defined protocols
-- Each app has isolated state management
-- System supports different app types/behaviors
+- Applications can register with the system ✓
+- Apps can be launched, suspended, terminated ✓
+- Apps can communicate via defined protocols ✓
+- Each app has isolated state management ✓
+- System supports different app types/behaviors ✓
 
 ---
 
@@ -288,10 +288,11 @@ See **`PETE_OS_ARCHITECTURE.md`** for:
 ## Current Focus & Active Development
 
 ### Active Requirement
-**Phase 1, Requirement 2: Application Framework & Registry**
-- Core window system is complete and functional
-- Next: Build application registry and lifecycle management
-- Focus on app isolation and inter-app communication
+**Phase 1, Requirement 3: Input & Interaction System**
+- Core window system is complete ✓
+- Application framework is complete ✓
+- Next: Build unified input handling and gesture system
+- Focus on event routing and context-aware interactions
 
 ### Key Decisions Made
 1. **System-first approach** - Build flexible foundations, not specific UIs
@@ -332,6 +333,31 @@ See **`PETE_OS_ARCHITECTURE.md`** for:
   - Constraint system for optional window behaviors
   - Metadata system for app-specific data
   - Z-order management without prescribing UI patterns
+
+### Session 3 - [December 2024]
+- **Completed Requirement 2: Application Framework & Registry**
+  - Created comprehensive application type system (`application.types.ts`)
+  - Built `ApplicationRegistry` for app registration and queries
+  - Implemented `ApplicationLifecycleManager` for launch/terminate/suspend/resume
+  - Created React context provider for application management
+  - Built inter-application messaging system
+  - Implemented `WindowApplicationBridge` to connect windows and apps
+  - Created demo application with manifest to test the framework
+  - Added `useApplication` hook for easy app management
+  - Integrated application framework with existing window system
+  - **Refactored to factory functions**: Replaced class-based implementations with factory functions for consistency
+- **Key Design Decisions:**
+  - Factory function pattern for all managers (consistent with window system)
+  - Singleton pattern for registry and lifecycle manager
+  - Implemented plugin-based application component interface
+  - Each app instance has unique ID and isolated state
+  - Apps can have multiple windows, tracked by the bridge
+  - Inter-app communication via message passing
+  - Apps define capabilities and window defaults in manifest
+  - Lifecycle hooks (onMount, onUnmount, onSuspend, onResume)
+- **Next Focus:**
+  - Begin Phase 2 with Input & Interaction System
+  - Or continue with more core applications
 
 ---
 
