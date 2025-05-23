@@ -1,0 +1,844 @@
+{
+  "general": {
+    "profilePhoto": "/content/media/profilePhoto.jpg",
+    "username": "petekp",
+    "displayName": "Pete Petrash",
+    "profession": "Software designer",
+    "location": "San Francisco, CA",
+    "pronouns": "he/him",
+    "byline": "Software designer in San Francisco, CA, he/him",
+    "website": "https://pete.design",
+    "websiteURL": "https://pete.design",
+    "about": "I'm a hybrid product designer & software engineer that loves creating products and tools that accelerate and amplify human well-being and potential.\n\nRecently my focus has been in AI and how to leverage LLMs in augmenting sense making, idea formation, and goal setting, particularly for neurodivergent folks like myself.",
+    "status": {
+      "text": null,
+      "emoji": null,
+      "timestamp": null
+    },
+    "sectionOrder": [
+      "Contact",
+      "Side Projects",
+      "Projects",
+      "Work Experience",
+      "Exhibitions",
+      "Speaking",
+      "Writing",
+      "Awards",
+      "Features",
+      "Volunteering",
+      "Education",
+      "Certifications",
+      "Teams"
+    ]
+  },
+  "projects": [],
+  "sideProjects": [
+    {
+      "id": "97xCmBHv5ExpDtjJUBMC",
+      "year": "Ongoing",
+      "heading": "Eigengrau",
+      "url": "https://www.instagram.com/eig3ngrau",
+      "collaborators": [],
+      "description": "Eigengrau is a creative outlet and excavation of the subconscious focused on generative art tools like VQGAN, Stable Diffusion, and Midjourney.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 3712,
+          "height": 4928,
+          "url": "/content/media/Eigengrau-1.jpg"
+        },
+        {
+          "type": "image",
+          "width": 3712,
+          "height": 4928,
+          "url": "/content/media/Eigengrau-2.jpg"
+        },
+        {
+          "type": "image",
+          "width": 1577,
+          "height": 1971,
+          "url": "/content/media/Eigengrau-3.jpg"
+        },
+        {
+          "type": "image",
+          "width": 1638,
+          "height": 2048,
+          "url": "/content/media/Eigengrau-4.jpg"
+        },
+        {
+          "type": "image",
+          "width": 1602,
+          "height": 2003,
+          "url": "/content/media/Eigengrau-5.jpg"
+        },
+        {
+          "type": "image",
+          "width": 1638,
+          "height": 2048,
+          "url": "/content/media/Eigengrau-6.jpg"
+        },
+        {
+          "type": "image",
+          "width": 1638,
+          "height": 2048,
+          "url": "/content/media/Eigengrau-7.jpg"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Eigengrau",
+      "company": ""
+    },
+    {
+      "id": "g57AVyt3x5CUOZuaNhl7",
+      "year": "2023",
+      "heading": "Diagrammaton",
+      "url": "https://diagrammaton.com",
+      "collaborators": [],
+      "description": "AI powered diagramming for FigJam.\n\nOpen sourced on GitHub:\n\n* [FigJam plugin](https://github.com/petekp/diagrammaton-figma-plugin)\n\n* [Account portal & backend](https://github.com/petekp/diagrammaton.com)",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 960,
+          "url": "/content/media/Diagrammaton-1.png"
+        },
+        {
+          "type": "image",
+          "width": 2608,
+          "height": 1314,
+          "url": "/content/media/Diagrammaton-2.png"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Diagrammaton",
+      "company": ""
+    },
+    {
+      "id": "l7jT6mo8FyJ0MD4e1tOq",
+      "year": "2023",
+      "heading": "Cluster",
+      "url": "https://www.figma.com/community/plugin/1225501037116774854/Cluster",
+      "collaborators": [],
+      "description": "Cluster uses AI to automate the tedious process of sorting & labeling ideas generated during affinity mapping exercises. \n\nOpen sourced on GitHub: \n\n* [Figma/FigJam plugin](https://github.com/petekp/cluster-figma-plugin)",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 960,
+          "url": "/content/media/Cluster-1.png"
+        },
+        {
+          "type": "video",
+          "width": 1920,
+          "height": 1080,
+          "url": "/content/media/Cluster-2.mp4"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Cluster",
+      "company": ""
+    }
+  ],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "kQavT1TfCb05xVTNv7mz",
+      "year": "2024 — Now",
+      "heading": "Product Engineer at Plumb",
+      "url": "https://useplumb.com",
+      "collaborators": [],
+      "description": "",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Product Engineer",
+      "company": "Plumb",
+      "location": ""
+    },
+    {
+      "id": "nk2d9VEQ2rKSD3M9o9Fv",
+      "year": "2023 — 2024",
+      "heading": "Principal Product Designer & Full Stack Engineer at Neuralift AI",
+      "url": null,
+      "collaborators": [],
+      "description": "",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1416,
+          "height": 818,
+          "url": "/content/media/Principal-Product-Designer-and-Full-Stack-Engineer-at-Neuralift-AI-1.png"
+        },
+        {
+          "type": "image",
+          "width": 1416,
+          "height": 818,
+          "url": "/content/media/Principal-Product-Designer-and-Full-Stack-Engineer-at-Neuralift-AI-2.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Principal Product Designer & Full Stack Engineer",
+      "company": "Neuralift AI",
+      "location": "Remote"
+    },
+    {
+      "id": "3iUCH3yHbM1jlbrIbNnR",
+      "year": "2022 — 2023",
+      "heading": "Staff Product Designer at Osmind",
+      "url": "https://www.osmind.org",
+      "collaborators": [],
+      "description": "Osmind's mission is to transform mental health by providing clinicians with modern, powerful software that amplifies their caregiving capabilities and powers research into novel therapeutics, particularly those that will help patients suffering from treatment-resistant depression.\n\nAt Osmind my focus was helping design their next generation EHR (Electronic Health Record) product, specifically the patient charting feature set that clinicians use to keep track of and provide care for patients.\n\nSome of the projects I led and/or collaborated on:\n• Patient Intake Form for mobile web\n• Evaluation Note\n• Patient Profile 2.0\n• Psych History\n• Notes 2.0\n• EHR component library",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1550,
+          "height": 1362,
+          "url": "/content/media/Staff-Product-Designer-at-Osmind.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Staff Product Designer",
+      "company": "Osmind",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "liJI6tdikfNRz2PNtpRL",
+      "year": "2021 — 2022",
+      "heading": "Senior Product Designer & Full Stack Engineer at Bicycle Health",
+      "url": "https://www.bicyclehealth.com",
+      "collaborators": [],
+      "description": "Bicycle Health's mission is to provide accessible, convenient, life-saving treatment to people with opioid use disorder. Like Virta, my experience at Bicycle Health further impressed upon me the opportunity to save and improve the lives of millions by leveraging digital product design to provide treatment at scale.\n\nWhile I started at Bicycle Health as the first design hire, I eventually transitioned to a full-stack engineering role, seeking to deepen my craft and ability to shape a product at the most fundamental levels. This is part of my belief that the border between product design and software engineering is increasingly blurry and in many ways arbitrary.\n\nDesign:\n• Designed our patient-facing app and guided implementation\n• Provided art direction for our brand identity refresh in collaboration with the talented designers at Character\n• Design, development and copywriting for our marketing website\n\nEngineering:\n• Implemented video call backend service using the Zoom API\n• Implemented cursor-based pagination and multi-field search against our patient database for our internal EMR based on Google Cloud Platform\n• Implemented automated cron-based push notifications service\n• Component and UI development on our React Native app",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 992,
+          "height": 1008,
+          "url": "/content/media/Senior-Product-Designer-and-Full-Stack-Engineer-at-Bicycle-Health-1.png"
+        },
+        {
+          "type": "image",
+          "width": 1780,
+          "height": 1408,
+          "url": "/content/media/Senior-Product-Designer-and-Full-Stack-Engineer-at-Bicycle-Health-2.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Senior Product Designer & Full Stack Engineer",
+      "company": "Bicycle Health",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "Doez8NAlOH8439Mt9Dzv",
+      "year": "2020 — 2021",
+      "heading": "Co-founder, Product at Candle",
+      "url": "https://www.candle.to",
+      "collaborators": [],
+      "description": "Candle was a search engine startup co-founded with a few friends during the depths of the 2020 pandemic. Its purpose was to help identify the trustworthiness of information, a very gnarly and arguably impossible task that we nonetheless pursued doggedly for a year before our runway came to an end.\n\nOur long term vision involved developing a linguistic analysis AI model trained via RLHF that would classify a given text across a set of measures (e.g. affect, intent, POV-taking) that together would be used to synthesize a trustworthiness score.\n\nOur short term strategy involved leaning on existing orgs providing similar credibility/fact-checking analysis (e.g. Poynter Institute) to synthesize a score that would be surfaced for each resource on a search results page.\n\nThe main problem we faced, aside from the possible lack of desire for such a product outside a very particular kind of information consumer, was selling others (note: VCs) on our long term strategy which would require non-trivial human capital (trained linguists) to actualize.\n\nWe were also uncertain about the best vehicle for such a tool: a search engine? a reading companion? a full-fledged reading app ala Instapaper? a browser extension? We explored all of these formats to varying degrees of fidelity and decided to move forward with our search engine and browser extension products.\n\nI learned a ton from this experience, including:\n\n• The utter importance of having a starkly clear, concise value prop and ideally very clear demand signal\n• Constantly interrogate your product strategy and routinely discuss and explore radically different product verticals (depending on the scope of your core mission–ours was intentionally broad, though to a fault)\n• How to create a compelling and easy-to-follow company narrative\n• Creating an eye catching brand identity (shout out to Om Malik who was a fan of our brand and design language)\n• Creating anything related to measuring \"truth\" or \"facts\" is an extremely hard sell, and understandably so\n• Not over-indexing on the narratives of the day–at the time, misinformation and disinformation were the subjects du jour but have since lost media and consumer focus\n\nProjects I worked on included:\n• Product design and strategy\n• Brand identity and messaging\n• Designed and did front-end dev for our search product (using React/NextJS)\n• Pitch deck design and copywriting",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 3432,
+          "height": 2060,
+          "url": "/content/media/Co-founder-Product-at-Candle-1.png"
+        },
+        {
+          "type": "image",
+          "width": 2210,
+          "height": 1858,
+          "url": "/content/media/Co-founder-Product-at-Candle-2.png"
+        },
+        {
+          "type": "image",
+          "width": 1040,
+          "height": 732,
+          "url": "/content/media/Co-founder-Product-at-Candle-3.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Co-founder, Product",
+      "company": "Candle",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "8jmWTWYn4QZ9whofWw6A",
+      "year": "2016 — 2020",
+      "heading": "Senior Design Engineer & Software Engineer at Virta Health",
+      "url": "https://www.virtahealth.com",
+      "collaborators": [
+        {
+          "displayName": "Garret Voorhees",
+          "profilePhoto": "/content/collaborators/garret.png",
+          "profileURL": "https://read.cv/garret"
+        },
+        {
+          "displayName": "Joey Banks",
+          "profilePhoto": "/content/collaborators/joeyabanks.jpg",
+          "profileURL": "https://read.cv/joeyabanks"
+        },
+        {
+          "displayName": "Victor Kernes",
+          "profilePhoto": "/content/collaborators/victorkernes.jpg",
+          "profileURL": "https://read.cv/victorkernes"
+        },
+        {
+          "displayName": "Dian Xiao",
+          "profilePhoto": null,
+          "profileURL": "https://read.cv/dian"
+        }
+      ],
+      "description": "Virta's mission is to reverse type-2 diabetes in 100 million people by 2025. Ambitious to say the least! Virta was my introduction to health tech and left a strong impression on me in many ways, particularly my belief that product and system design are huge leverage points for delivering cutting edge treatment at scale.\n\nDesign:\n• First design hire\n• Lead product designer for the Patient App, a cross-platform app (iOS/Android/Web) for Virta patients to interface with a health coach, capture biomarker data, and receive guidance based on a personalized treatment protocol\n• Designed several features for the Patient App including Biomarker Logging, History, Care Team, Weekly Summary, Tasks, Goals, and Notifications\n• Led the design and development of the Virta product design language, Substrate, and initial development of a cross-platform component library using React Native and TypeScript\n• Recruited from the design team to join engineering to help facilitate the rollout of our new design system and to focus on scaling our front-end development process\n\nEngineering:\n• Lead code contributor to the Patient App (both web and React Native codebases)\n• Implemented interactive biomarker data charts in React Native\n• iOS/Android biometric authentication\n• Advocated and led implementation of app-wide Substrate design system conversion\n• Advocated and implemented numerous polish items across the app, from performance improvements to small touches of delight like animated checkboxes",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1474,
+          "height": 1448,
+          "url": "/content/media/Senior-Design-Engineer-and-Software-Engineer-at-Virta-Health-1.png"
+        },
+        {
+          "type": "image",
+          "width": 3460,
+          "height": 2108,
+          "url": "/content/media/Senior-Design-Engineer-and-Software-Engineer-at-Virta-Health-2.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Senior Design Engineer & Software Engineer",
+      "company": "Virta Health",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "BJfi0cpbrHGAmNBDWFbG",
+      "year": "2014 — 2016",
+      "heading": "Interaction Designer at The Home Depot",
+      "url": "https://www.homedepot.com",
+      "collaborators": [],
+      "description": "Like many Fortune 100 companies at the time, Home Depot wanted to bolster its technology portfolio and establish a team and presence in Silicon Valley. To do this they acquired a leading Bay Area-based home services startup, Redbeacon, and refashioned it into a technology lab called Techshed that was particularly focused on Home Depot's substantial professional contractor customers (then accounting for over 60% of their revenue) under the Home Depot Pro product line.\n\nI joined Techshed shortly after the acquisition as an Interaction Designer focused on designing and prototyping new product offerings for Home Depot's Pro customers across iOS, Android, and web.\n\nSome of the projects I worked on included:\n\n- Designed a two-sided curbside pickup experience (Express Pickup) that was integrated into the Home Depot Pro app as a checkout option, as well as a companion app for the fulfillment side\n- Designed and prototyped the Home Depot Pro home services app that allows contractors to view, manage, fulfill service leads from homeowners\n- Prototyped novel interactions and patterns for the Home Depot Pro website including add to cart animations\n- Re-designed the checkout flow for the Home Depot Pro mobile app (significant increase in conversion)\n- Developed and co-designed the Techshed website",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 750,
+          "height": 555,
+          "url": "/content/media/Interaction-Designer-at-The-Home-Depot.jpg"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Interaction Designer",
+      "company": "The Home Depot",
+      "location": "Fremont, CA"
+    },
+    {
+      "id": "OGLGRoD178bwf1pPjkSt",
+      "year": "2012 — 2014",
+      "heading": "Product Designer at Vuact",
+      "url": null,
+      "collaborators": [],
+      "description": "My first proper startup and the role that helped me relocate to the Bay Area. \n\nVuact was an innovative web video player and platform distinguished by then-novel timeline-based reactions/comments and a popularity graph, two features that have since become commonplace in products like Facebook's video player (emoji reactions) and YouTube.\n\nAs the sole designer I did quite a bit including:\n• Created our brand identity\n• Developed the majority of our web app front-end\n• Copywriting\n• Dashboard design and development\n• Landing page design and development\n• A slew of functional prototypes exploring potential functionality for both web and mobile",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1596,
+          "height": 1142,
+          "url": "/content/media/Product-Designer-at-Vuact-1.png"
+        },
+        {
+          "type": "image",
+          "width": 1594,
+          "height": 1188,
+          "url": "/content/media/Product-Designer-at-Vuact-2.png"
+        },
+        {
+          "type": "image",
+          "width": 1594,
+          "height": 1192,
+          "url": "/content/media/Product-Designer-at-Vuact-3.png"
+        },
+        {
+          "type": "image",
+          "width": 1582,
+          "height": 1186,
+          "url": "/content/media/Product-Designer-at-Vuact-4.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Product Designer",
+      "company": "Vuact",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "FEACLLGGRdkQjv0KbctK",
+      "year": "2011 — 2012",
+      "heading": "Designer at CauseLabs",
+      "url": "https://www.causelabs.com",
+      "collaborators": [],
+      "description": "CauseLabs was a product development agency focused on nonprofits and companies with a world-positive mission.\n\nMy favorite project at CauseLabs was designing a proposal creation & peer review system for Blue Planet Network, a leading NGO in the WASH sector (water, sanitation and hygiene). \n\nThe system enabled implementers to easily draw upon the knowledge and experience of peer projects to  increase the probability of effectiveness and longevity (the two key success indicators). \n\nAs more proposals are created, peer reviewed, and implemented, the system's knowledge-base becomes more robust and was able to surface increasingly pertinent, contextual information during the creation of new proposals.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 926,
+          "height": 928,
+          "url": "/content/media/Designer-at-CauseLabs.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Designer",
+      "company": "CauseLabs",
+      "location": "Denver"
+    }
+  ],
+  "volunteering": [],
+  "education": [],
+  "certifications": [],
+  "contact": [
+    {
+      "id": "41g6WFKuicsOx1FHZ2WQ",
+      "platform": "Bluesky",
+      "handle": "@pete.design",
+      "url": "https://bsky.app/profile/pete.design"
+    },
+    {
+      "id": "5ugytgmnlKkGlgCvc0vO",
+      "platform": "LinkedIn",
+      "handle": "petekp",
+      "url": "https://linkedin.com/in/petekp"
+    },
+    {
+      "id": "ZsUjWaU8AOuf8yZUQkvt",
+      "platform": "Twitter",
+      "handle": "petepetrash",
+      "url": "https://twitter.com/petepetrash"
+    },
+    {
+      "id": "q5RyMH87IpYWZLlFj3xN",
+      "platform": "Letterboxd",
+      "handle": "petekp",
+      "url": "https://letterboxd.com/petekp"
+    },
+    {
+      "id": "oDNHN8igjlZbKPW6uEdw",
+      "platform": "Instagram",
+      "handle": "eig3ngrau",
+      "url": "https://instagram.com/eig3ngrau"
+    },
+    {
+      "id": "kRxQgqp7Xu33y5VunRYj",
+      "platform": "GitHub",
+      "handle": "petekp",
+      "url": "https://github.com/petekp"
+    },
+    {
+      "id": "WlYlKWv6Tg0HGnj9taxW",
+      "platform": "Email",
+      "handle": "p@petekp.com",
+      "url": "mailto:p@petekp.com"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "41g6WFKuicsOx1FHZ2WQ",
+          "platform": "Bluesky",
+          "handle": "@pete.design",
+          "url": "https://bsky.app/profile/pete.design"
+        },
+        {
+          "id": "5ugytgmnlKkGlgCvc0vO",
+          "platform": "LinkedIn",
+          "handle": "petekp",
+          "url": "https://linkedin.com/in/petekp"
+        },
+        {
+          "id": "ZsUjWaU8AOuf8yZUQkvt",
+          "platform": "Twitter",
+          "handle": "petepetrash",
+          "url": "https://twitter.com/petepetrash"
+        },
+        {
+          "id": "q5RyMH87IpYWZLlFj3xN",
+          "platform": "Letterboxd",
+          "handle": "petekp",
+          "url": "https://letterboxd.com/petekp"
+        },
+        {
+          "id": "oDNHN8igjlZbKPW6uEdw",
+          "platform": "Instagram",
+          "handle": "eig3ngrau",
+          "url": "https://instagram.com/eig3ngrau"
+        },
+        {
+          "id": "kRxQgqp7Xu33y5VunRYj",
+          "platform": "GitHub",
+          "handle": "petekp",
+          "url": "https://github.com/petekp"
+        },
+        {
+          "id": "WlYlKWv6Tg0HGnj9taxW",
+          "platform": "Email",
+          "handle": "p@petekp.com",
+          "url": "mailto:p@petekp.com"
+        }
+      ]
+    },
+    {
+      "name": "Side Projects",
+      "items": [
+        {
+          "id": "97xCmBHv5ExpDtjJUBMC",
+          "year": "Ongoing",
+          "heading": "Eigengrau",
+          "url": "https://www.instagram.com/eig3ngrau",
+          "collaborators": [],
+          "description": "Eigengrau is a creative outlet and excavation of the subconscious focused on generative art tools like VQGAN, Stable Diffusion, and Midjourney.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 3712,
+              "height": 4928,
+              "url": "/content/media/Eigengrau-1.jpg"
+            },
+            {
+              "type": "image",
+              "width": 3712,
+              "height": 4928,
+              "url": "/content/media/Eigengrau-2.jpg"
+            },
+            {
+              "type": "image",
+              "width": 1577,
+              "height": 1971,
+              "url": "/content/media/Eigengrau-3.jpg"
+            },
+            {
+              "type": "image",
+              "width": 1638,
+              "height": 2048,
+              "url": "/content/media/Eigengrau-4.jpg"
+            },
+            {
+              "type": "image",
+              "width": 1602,
+              "height": 2003,
+              "url": "/content/media/Eigengrau-5.jpg"
+            },
+            {
+              "type": "image",
+              "width": 1638,
+              "height": 2048,
+              "url": "/content/media/Eigengrau-6.jpg"
+            },
+            {
+              "type": "image",
+              "width": 1638,
+              "height": 2048,
+              "url": "/content/media/Eigengrau-7.jpg"
+            }
+          ],
+          "type": "sideProject",
+          "title": "Eigengrau",
+          "company": ""
+        },
+        {
+          "id": "g57AVyt3x5CUOZuaNhl7",
+          "year": "2023",
+          "heading": "Diagrammaton",
+          "url": "https://diagrammaton.com",
+          "collaborators": [],
+          "description": "AI powered diagramming for FigJam.\n\nOpen sourced on GitHub:\n\n* [FigJam plugin](https://github.com/petekp/diagrammaton-figma-plugin)\n\n* [Account portal & backend](https://github.com/petekp/diagrammaton.com)",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 960,
+              "url": "/content/media/Diagrammaton-1.png"
+            },
+            {
+              "type": "image",
+              "width": 2608,
+              "height": 1314,
+              "url": "/content/media/Diagrammaton-2.png"
+            }
+          ],
+          "type": "sideProject",
+          "title": "Diagrammaton",
+          "company": ""
+        },
+        {
+          "id": "l7jT6mo8FyJ0MD4e1tOq",
+          "year": "2023",
+          "heading": "Cluster",
+          "url": "https://www.figma.com/community/plugin/1225501037116774854/Cluster",
+          "collaborators": [],
+          "description": "Cluster uses AI to automate the tedious process of sorting & labeling ideas generated during affinity mapping exercises. \n\nOpen sourced on GitHub: \n\n* [Figma/FigJam plugin](https://github.com/petekp/cluster-figma-plugin)",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 960,
+              "url": "/content/media/Cluster-1.png"
+            },
+            {
+              "type": "video",
+              "width": 1920,
+              "height": 1080,
+              "url": "/content/media/Cluster-2.mp4"
+            }
+          ],
+          "type": "sideProject",
+          "title": "Cluster",
+          "company": ""
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "kQavT1TfCb05xVTNv7mz",
+          "year": "2024 — Now",
+          "heading": "Product Engineer at Plumb",
+          "url": "https://useplumb.com",
+          "collaborators": [],
+          "description": "",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Product Engineer",
+          "company": "Plumb",
+          "location": ""
+        },
+        {
+          "id": "nk2d9VEQ2rKSD3M9o9Fv",
+          "year": "2023 — 2024",
+          "heading": "Principal Product Designer & Full Stack Engineer at Neuralift AI",
+          "url": null,
+          "collaborators": [],
+          "description": "",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1416,
+              "height": 818,
+              "url": "/content/media/Principal-Product-Designer-and-Full-Stack-Engineer-at-Neuralift-AI-1.png"
+            },
+            {
+              "type": "image",
+              "width": 1416,
+              "height": 818,
+              "url": "/content/media/Principal-Product-Designer-and-Full-Stack-Engineer-at-Neuralift-AI-2.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Principal Product Designer & Full Stack Engineer",
+          "company": "Neuralift AI",
+          "location": "Remote"
+        },
+        {
+          "id": "3iUCH3yHbM1jlbrIbNnR",
+          "year": "2022 — 2023",
+          "heading": "Staff Product Designer at Osmind",
+          "url": "https://www.osmind.org",
+          "collaborators": [],
+          "description": "Osmind's mission is to transform mental health by providing clinicians with modern, powerful software that amplifies their caregiving capabilities and powers research into novel therapeutics, particularly those that will help patients suffering from treatment-resistant depression.\n\nAt Osmind my focus was helping design their next generation EHR (Electronic Health Record) product, specifically the patient charting feature set that clinicians use to keep track of and provide care for patients.\n\nSome of the projects I led and/or collaborated on:\n• Patient Intake Form for mobile web\n• Evaluation Note\n• Patient Profile 2.0\n• Psych History\n• Notes 2.0\n• EHR component library",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1550,
+              "height": 1362,
+              "url": "/content/media/Staff-Product-Designer-at-Osmind.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Staff Product Designer",
+          "company": "Osmind",
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": "liJI6tdikfNRz2PNtpRL",
+          "year": "2021 — 2022",
+          "heading": "Senior Product Designer & Full Stack Engineer at Bicycle Health",
+          "url": "https://www.bicyclehealth.com",
+          "collaborators": [],
+          "description": "Bicycle Health's mission is to provide accessible, convenient, life-saving treatment to people with opioid use disorder. Like Virta, my experience at Bicycle Health further impressed upon me the opportunity to save and improve the lives of millions by leveraging digital product design to provide treatment at scale.\n\nWhile I started at Bicycle Health as the first design hire, I eventually transitioned to a full-stack engineering role, seeking to deepen my craft and ability to shape a product at the most fundamental levels. This is part of my belief that the border between product design and software engineering is increasingly blurry and in many ways arbitrary.\n\nDesign:\n• Designed our patient-facing app and guided implementation\n• Provided art direction for our brand identity refresh in collaboration with the talented designers at Character\n• Design, development and copywriting for our marketing website\n\nEngineering:\n• Implemented video call backend service using the Zoom API\n• Implemented cursor-based pagination and multi-field search against our patient database for our internal EMR based on Google Cloud Platform\n• Implemented automated cron-based push notifications service\n• Component and UI development on our React Native app",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 992,
+              "height": 1008,
+              "url": "/content/media/Senior-Product-Designer-and-Full-Stack-Engineer-at-Bicycle-Health-1.png"
+            },
+            {
+              "type": "image",
+              "width": 1780,
+              "height": 1408,
+              "url": "/content/media/Senior-Product-Designer-and-Full-Stack-Engineer-at-Bicycle-Health-2.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Senior Product Designer & Full Stack Engineer",
+          "company": "Bicycle Health",
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": "Doez8NAlOH8439Mt9Dzv",
+          "year": "2020 — 2021",
+          "heading": "Co-founder, Product at Candle",
+          "url": "https://www.candle.to",
+          "collaborators": [],
+          "description": "Candle was a search engine startup co-founded with a few friends during the depths of the 2020 pandemic. Its purpose was to help identify the trustworthiness of information, a very gnarly and arguably impossible task that we nonetheless pursued doggedly for a year before our runway came to an end.\n\nOur long term vision involved developing a linguistic analysis AI model trained via RLHF that would classify a given text across a set of measures (e.g. affect, intent, POV-taking) that together would be used to synthesize a trustworthiness score.\n\nOur short term strategy involved leaning on existing orgs providing similar credibility/fact-checking analysis (e.g. Poynter Institute) to synthesize a score that would be surfaced for each resource on a search results page.\n\nThe main problem we faced, aside from the possible lack of desire for such a product outside a very particular kind of information consumer, was selling others (note: VCs) on our long term strategy which would require non-trivial human capital (trained linguists) to actualize.\n\nWe were also uncertain about the best vehicle for such a tool: a search engine? a reading companion? a full-fledged reading app ala Instapaper? a browser extension? We explored all of these formats to varying degrees of fidelity and decided to move forward with our search engine and browser extension products.\n\nI learned a ton from this experience, including:\n\n• The utter importance of having a starkly clear, concise value prop and ideally very clear demand signal\n• Constantly interrogate your product strategy and routinely discuss and explore radically different product verticals (depending on the scope of your core mission–ours was intentionally broad, though to a fault)\n• How to create a compelling and easy-to-follow company narrative\n• Creating an eye catching brand identity (shout out to Om Malik who was a fan of our brand and design language)\n• Creating anything related to measuring \"truth\" or \"facts\" is an extremely hard sell, and understandably so\n• Not over-indexing on the narratives of the day–at the time, misinformation and disinformation were the subjects du jour but have since lost media and consumer focus\n\nProjects I worked on included:\n• Product design and strategy\n• Brand identity and messaging\n• Designed and did front-end dev for our search product (using React/NextJS)\n• Pitch deck design and copywriting",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 3432,
+              "height": 2060,
+              "url": "/content/media/Co-founder-Product-at-Candle-1.png"
+            },
+            {
+              "type": "image",
+              "width": 2210,
+              "height": 1858,
+              "url": "/content/media/Co-founder-Product-at-Candle-2.png"
+            },
+            {
+              "type": "image",
+              "width": 1040,
+              "height": 732,
+              "url": "/content/media/Co-founder-Product-at-Candle-3.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Co-founder, Product",
+          "company": "Candle",
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": "8jmWTWYn4QZ9whofWw6A",
+          "year": "2016 — 2020",
+          "heading": "Senior Design Engineer & Software Engineer at Virta Health",
+          "url": "https://www.virtahealth.com",
+          "collaborators": [
+            {
+              "displayName": "Garret Voorhees",
+              "profilePhoto": "/content/collaborators/garret.png",
+              "profileURL": "https://read.cv/garret"
+            },
+            {
+              "displayName": "Joey Banks",
+              "profilePhoto": "/content/collaborators/joeyabanks.jpg",
+              "profileURL": "https://read.cv/joeyabanks"
+            },
+            {
+              "displayName": "Victor Kernes",
+              "profilePhoto": "/content/collaborators/victorkernes.jpg",
+              "profileURL": "https://read.cv/victorkernes"
+            },
+            {
+              "displayName": "Dian Xiao",
+              "profilePhoto": null,
+              "profileURL": "https://read.cv/dian"
+            }
+          ],
+          "description": "Virta's mission is to reverse type-2 diabetes in 100 million people by 2025. Ambitious to say the least! Virta was my introduction to health tech and left a strong impression on me in many ways, particularly my belief that product and system design are huge leverage points for delivering cutting edge treatment at scale.\n\nDesign:\n• First design hire\n• Lead product designer for the Patient App, a cross-platform app (iOS/Android/Web) for Virta patients to interface with a health coach, capture biomarker data, and receive guidance based on a personalized treatment protocol\n• Designed several features for the Patient App including Biomarker Logging, History, Care Team, Weekly Summary, Tasks, Goals, and Notifications\n• Led the design and development of the Virta product design language, Substrate, and initial development of a cross-platform component library using React Native and TypeScript\n• Recruited from the design team to join engineering to help facilitate the rollout of our new design system and to focus on scaling our front-end development process\n\nEngineering:\n• Lead code contributor to the Patient App (both web and React Native codebases)\n• Implemented interactive biomarker data charts in React Native\n• iOS/Android biometric authentication\n• Advocated and led implementation of app-wide Substrate design system conversion\n• Advocated and implemented numerous polish items across the app, from performance improvements to small touches of delight like animated checkboxes",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1474,
+              "height": 1448,
+              "url": "/content/media/Senior-Design-Engineer-and-Software-Engineer-at-Virta-Health-1.png"
+            },
+            {
+              "type": "image",
+              "width": 3460,
+              "height": 2108,
+              "url": "/content/media/Senior-Design-Engineer-and-Software-Engineer-at-Virta-Health-2.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Senior Design Engineer & Software Engineer",
+          "company": "Virta Health",
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": "BJfi0cpbrHGAmNBDWFbG",
+          "year": "2014 — 2016",
+          "heading": "Interaction Designer at The Home Depot",
+          "url": "https://www.homedepot.com",
+          "collaborators": [],
+          "description": "Like many Fortune 100 companies at the time, Home Depot wanted to bolster its technology portfolio and establish a team and presence in Silicon Valley. To do this they acquired a leading Bay Area-based home services startup, Redbeacon, and refashioned it into a technology lab called Techshed that was particularly focused on Home Depot's substantial professional contractor customers (then accounting for over 60% of their revenue) under the Home Depot Pro product line.\n\nI joined Techshed shortly after the acquisition as an Interaction Designer focused on designing and prototyping new product offerings for Home Depot's Pro customers across iOS, Android, and web.\n\nSome of the projects I worked on included:\n\n- Designed a two-sided curbside pickup experience (Express Pickup) that was integrated into the Home Depot Pro app as a checkout option, as well as a companion app for the fulfillment side\n- Designed and prototyped the Home Depot Pro home services app that allows contractors to view, manage, fulfill service leads from homeowners\n- Prototyped novel interactions and patterns for the Home Depot Pro website including add to cart animations\n- Re-designed the checkout flow for the Home Depot Pro mobile app (significant increase in conversion)\n- Developed and co-designed the Techshed website",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 750,
+              "height": 555,
+              "url": "/content/media/Interaction-Designer-at-The-Home-Depot.jpg"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Interaction Designer",
+          "company": "The Home Depot",
+          "location": "Fremont, CA"
+        },
+        {
+          "id": "OGLGRoD178bwf1pPjkSt",
+          "year": "2012 — 2014",
+          "heading": "Product Designer at Vuact",
+          "url": null,
+          "collaborators": [],
+          "description": "My first proper startup and the role that helped me relocate to the Bay Area. \n\nVuact was an innovative web video player and platform distinguished by then-novel timeline-based reactions/comments and a popularity graph, two features that have since become commonplace in products like Facebook's video player (emoji reactions) and YouTube.\n\nAs the sole designer I did quite a bit including:\n• Created our brand identity\n• Developed the majority of our web app front-end\n• Copywriting\n• Dashboard design and development\n• Landing page design and development\n• A slew of functional prototypes exploring potential functionality for both web and mobile",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1596,
+              "height": 1142,
+              "url": "/content/media/Product-Designer-at-Vuact-1.png"
+            },
+            {
+              "type": "image",
+              "width": 1594,
+              "height": 1188,
+              "url": "/content/media/Product-Designer-at-Vuact-2.png"
+            },
+            {
+              "type": "image",
+              "width": 1594,
+              "height": 1192,
+              "url": "/content/media/Product-Designer-at-Vuact-3.png"
+            },
+            {
+              "type": "image",
+              "width": 1582,
+              "height": 1186,
+              "url": "/content/media/Product-Designer-at-Vuact-4.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Product Designer",
+          "company": "Vuact",
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": "FEACLLGGRdkQjv0KbctK",
+          "year": "2011 — 2012",
+          "heading": "Designer at CauseLabs",
+          "url": "https://www.causelabs.com",
+          "collaborators": [],
+          "description": "CauseLabs was a product development agency focused on nonprofits and companies with a world-positive mission.\n\nMy favorite project at CauseLabs was designing a proposal creation & peer review system for Blue Planet Network, a leading NGO in the WASH sector (water, sanitation and hygiene). \n\nThe system enabled implementers to easily draw upon the knowledge and experience of peer projects to  increase the probability of effectiveness and longevity (the two key success indicators). \n\nAs more proposals are created, peer reviewed, and implemented, the system's knowledge-base becomes more robust and was able to surface increasingly pertinent, contextual information during the creation of new proposals.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 926,
+              "height": 928,
+              "url": "/content/media/Designer-at-CauseLabs.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Designer",
+          "company": "CauseLabs",
+          "location": "Denver"
+        }
+      ]
+    }
+  ]
+}
