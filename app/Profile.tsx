@@ -9,7 +9,7 @@ type ProfileProps = {
 };
 const Profile: React.FC<ProfileProps> = ({ cv }) => {
   return (
-    <div key={cv.general.displayName} className={styles.profile}>
+    <div className={styles.profile}>
       <div className={styles.profileHeader}>
         <div className={styles.profilePhoto}>
           <Image src={cv.general.profilePhoto} alt="" width={92} height={92} />
@@ -18,7 +18,19 @@ const Profile: React.FC<ProfileProps> = ({ cv }) => {
           <h1>{cv.general.displayName}</h1>
           <div className={styles.byline}>{cv.general.byline}</div>
           {cv.general.website ? (
-            <a className={styles.website}>{cv.general.website}</a>
+            <div className={styles.title}>
+              <a
+                href={cv.general.websiteURL || `https://${cv.general.website}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {cv.general.website}
+              </a>
+              <span className={styles.linkArrow}>
+                &#xfeff;
+                <Arrow12 fill="var(--grey1)" />
+              </span>
+            </div>
           ) : null}
         </div>
       </div>
@@ -34,7 +46,10 @@ const Profile: React.FC<ProfileProps> = ({ cv }) => {
 
       {cv.allCollections.map((collection: any, index: number) => {
         return (
-          <section className={styles.profileSection}>
+          <section
+            key={collection.name || `collection-${index}`}
+            className={styles.profileSection}
+          >
             <h3>{collection.name}</h3>
             <div
               className={
@@ -46,13 +61,20 @@ const Profile: React.FC<ProfileProps> = ({ cv }) => {
               {collection.items.map((experience: any, index: number) => {
                 if (collection.name === "Contact") {
                   return (
-                    <ContactItem key={experience.url} experience={experience} />
+                    <ContactItem
+                      key={
+                        experience.url ||
+                        experience.handle ||
+                        `contact-${index}`
+                      }
+                      experience={experience}
+                    />
                   );
                 }
 
                 return (
                   <ProfileItem
-                    key={experience.heading}
+                    key={experience.id || experience.heading || `item-${index}`}
                     experience={experience}
                   />
                 );

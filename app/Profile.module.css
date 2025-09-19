@@ -19,6 +19,7 @@
 
 .byline {
   color: var(--grey2);
+  margin-bottom: 2px;
 }
 
 .profilePhoto {
